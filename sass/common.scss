@@ -1,5 +1,51 @@
-/*start form starts*/
+start form starts*/
 
+.clearfix:before,
+.clearfix:after {
+    display: table; /* 2 */
+    content: " "; /* 1 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+
+/*different width*/
+.w100{
+	width:90%;
+}
+.w90{
+	width:90%;
+}
+.w80{
+	width:80%;
+}
+.w70{
+	width:70%;
+}
+.w60{
+	width:60%;
+}
+.w50{
+	width:50%;
+}
+.w40{
+	width:40%;
+}
+.w30{
+	width:30%;
+}
+.w20{
+	width:20%;
+}
+.w10{
+	width:10%;
+}
+/*different width end*/
 
 /*bubble*/
 .white-container{
@@ -37,3 +83,10 @@
 			}  
 		}
 /*end bubble*/
+
+.wycenter {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+

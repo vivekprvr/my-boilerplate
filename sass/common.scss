@@ -1,0 +1,39 @@
+/*start form starts*/
+
+
+/*bubble*/
+.white-container{
+			background:#fff;
+			border: solid 1px rgba(0,0,0,.17);
+			width:90%;
+			display:block;
+			height:150px;
+			@include border-radius(5px);
+			position:relative;
+			&:before{
+			border-color: #FFFFFF transparent;
+			border-style: solid;
+			border-width: 17px 17px 0;
+			bottom: -14px;
+			content: "";
+			display: block;
+			left: 50%;
+			position: absolute;
+			width: 0;
+			z-index: 1;
+			z-index: 1;
+			}
+			&:after {  
+		 	border-color: rgba(0,0,0,.1) transparent;
+		    border-style: solid;
+		    border-width: 16px 16px 0;
+		    content: "";
+		    display: block;
+		    left: 50.1%;
+		    position: absolute;
+		     top: 149px;
+		    width: 0;
+		    z-index: 0;
+			}  
+		}
+/*end bubble*/

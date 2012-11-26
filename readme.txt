@@ -1,2 +1,2 @@
-<h1>my boilerplate</h1>
-<hr>
+gollum -- A wiki built on top of Git
+====================================
